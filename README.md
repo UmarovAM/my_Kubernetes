@@ -53,5 +53,13 @@ kubeadm join 192.168.31.236:6443 --token ys8zq6.8j37bnwnnhaj4d1p \
 ![image](https://user-images.githubusercontent.com/118117183/217020377-2aa170bd-1bd9-46ce-981a-0766bc83fc2c.png)
 
 kubeadm reset если что то пошло не так
-        
+        Helm: деплой проекта
+Helm можно использовать как для установки чартов из публичных 
+репозиториев:
+Так и для создания и деплоя своих собственных чартов:
+21
+helm repo add brigade https://brigadecore.github.io/charts
+helm install brigade-release brigade/brigade
+helm install my-project
+
         
