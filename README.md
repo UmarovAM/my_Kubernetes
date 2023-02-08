@@ -31,7 +31,9 @@ docker run hello-world
    32  systemctl restart containerd.service
    33  kubeadm init
    
-   export KUBECONFIG=/etc/kubernetes/admin.conf работает до перезагрузки
+   echo $KUBECONFIG
+   export KUBECONFIG=/etc/kubernetes/admin.conf 
+   работает до перезагрузки
    
    ## Устанавливаем CNI (Например weave):
    kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
