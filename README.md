@@ -46,6 +46,8 @@ kubeadm join 192.168.31.236:6443 --token ys8zq6.8j37bnwnnhaj4d1p \
         --discovery-token-ca-cert-hash sha256:1241e45f72979940495a598691c4c6b376d76efcea9f8ba28fc0a5f43
  ## Нормально работающая нода
          watch kubectl get all --all-namespaces
+         ![image](https://user-images.githubusercontent.com/118117183/217562866-98603e88-97b5-49aa-87de-42b8070b472c.png)
+
          kubectl get po -n kube-system
          
 ![image](https://user-images.githubusercontent.com/118117183/217020377-2aa170bd-1bd9-46ce-981a-0766bc83fc2c.png)
