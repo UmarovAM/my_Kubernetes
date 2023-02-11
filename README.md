@@ -57,5 +57,7 @@ Helm можно использовать как для установки чар
          helm repo add brigade https://brigadecore.github.io/charts
          helm install brigade-release brigade/brigade
          helm install my-project
+         
+![image](https://user-images.githubusercontent.com/118117183/218258250-ba145998-9cf2-42e3-8c49-3a28f8cde809.png)
 
         
